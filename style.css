@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans&display=swap');
+
+#hero, #about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100vh;
+    background-color: #202020;
+}
+
+section h1, section h2, section h3, section h4, section h5{
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+#hero .row{
+    height: 10vh;
+}
+#hero img{
+    max-width: 200px;
+    max-height: 200px;
+}
+#about > .col{
+    justify-content: center;
+}
+
+#about .row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#contact{
+    background-color: #202020;
+    height: 5vh;
+}
+#contact h3 a{
+    color: white;
+    text-decoration: none;
+}
